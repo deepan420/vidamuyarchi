@@ -67,3 +67,31 @@ positive_example(S, G, instance4)
 print("\nAfter Instance 4")
 print("S =", S)
 print("G =", G)
+
+
+"""
+OUTPUT:
+
+After Instance 1
+S = ['sunny', 'warm', 'normal', 'strong', 'warm', 'same']
+G = [['?', '?', '?', '?', '?', '?']]
+
+After Instance 2
+S = ['sunny', 'warm', '?', 'strong', 'warm', 'same']
+G = [['?', '?', '?', '?', '?', '?']]
+
+After Instance 3
+S = ['sunny', 'warm', '?', 'strong', 'warm', 'same']
+G = [
+     ['sunny', '?', '?', '?', '?', '?'],
+     ['?', 'warm', '?', '?', '?', '?'],
+     ['?', '?', '?', '?', '?', 'same']
+    ]
+
+After Instance 4
+S = ['sunny', 'warm', '?', 'strong', '?', '?']
+G = [
+     ['sunny', '?', '?', '?', '?', '?'],
+     ['?', 'warm', '?', '?', '?', '?']
+    ]
+"""
